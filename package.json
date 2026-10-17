@@ -1,0 +1,21 @@
+{
+  "name": "honya-extensions",
+  "private": true,
+  "type": "module",
+  "description": "The SDK for writing Honya sources, and an example source.",
+  "license": "Apache-2.0",
+  "repository": "github:HonyaApp/Extensions",
+  "honya": {
+    "repoName": "Honya Examples"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "tsc",
+    "serve": "node scripts/serve.mjs",
+    "dev": "npm run check && npm run build && npm run serve"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2",
+    "typescript": "^7.0.2"
+  }
+}
