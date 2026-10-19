@@ -2,7 +2,7 @@
 
 Honya comes with no sources. Users add **repositories** under Settings → Sources and install sources from them. A source is a small TypeScript extension, bundled to one JavaScript file that the app runs in JavaScriptCore. A repository is a folder of those files plus an `index.json` that lists them. Anyone can host one for free, for example on GitHub Pages or in a GitHub branch.
 
-This repository holds the SDK for writing sources, the build script, and Public Domain Comics as an example source. Its `repo` branch is a working repository: add `https://github.com/HonyaApp/Extensions` in Settings → Sources to install the example.
+This repository holds the SDK for writing sources, the build script, and three example sources: Public Domain Comics, Public Domain Manga, and Pepper&Carrot in twelve languages. Its `repo` branch is a working repository: add `https://github.com/HonyaApp/Extensions` in Settings → Sources to install the examples.
 
 ## Quick start
 
@@ -50,7 +50,7 @@ Set `nsfw: true` in `info` on any source that can show adult content. The app hi
 
 ### Several sources in one extension
 
-Like Mihon's `SourceFactory`, an extension can default-export an **array** of sources, typically one per language, each with its own Mihon `id`. The build lists each in `index.json` and they share one script.
+Like Mihon's `SourceFactory`, an extension can default-export an **array** of sources, typically one per language, each with its own Mihon `id`. The build lists each in `index.json` and they share one script. See [`src/all/peppercarrot`](src/all/peppercarrot).
 
 ### What a source can use
 
@@ -131,4 +131,4 @@ The app checks each download against `sha256` and loads the script once before i
 
 ## License
 
-The SDK, the build scripts and the example source are under the [Apache License 2.0](LICENSE). The comics the example source lists are in the public domain; their scans are hosted by the Internet Archive.
+The SDK, the build scripts and the example sources' code are under the [Apache License 2.0](LICENSE). The comics Public Domain Comics and Public Domain Manga list are in the public domain; their scans are hosted by the Internet Archive and Japan's National Diet Library. Pepper&Carrot is by David Revoy and its translators, under [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/), and is read from [peppercarrot.com](https://www.peppercarrot.com).
