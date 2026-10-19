@@ -1,0 +1,157 @@
+{
+  "name": "Honya Example Repo",
+  "sources": [
+    {
+      "id": "3717103867132681399",
+      "name": "Pepper&Carrot",
+      "lang": "en",
+      "version": "1.2.1",
+      "baseUrl": "https://www.peppercarrot.com",
+      "icon": "https://www.peppercarrot.com/core/img/favicon.png",
+      "apiVersion": 2,
+      "file": "sources/all.peppercarrot.js",
+      "sha256": "5bdf350422323df41295168bf270e4499e35e00429a532cc669d8bb2aba66c84"
+    },
+    {
+      "id": "6165881221950830721",
+      "name": "Pepper&Carrot",
+      "lang": "ja",
+      "version": "1.2.1",
+      "baseUrl": "https://www.peppercarrot.com",
+      "icon": "https://www.peppercarrot.com/core/img/favicon.png",
+      "apiVersion": 2,
+      "file": "sources/all.peppercarrot.js",
+      "sha256": "5bdf350422323df41295168bf270e4499e35e00429a532cc669d8bb2aba66c84"
+    },
+    {
+      "id": "4651823155460600022",
+      "name": "Pepper&Carrot",
+      "lang": "zh",
+      "version": "1.2.1",
+      "baseUrl": "https://www.peppercarrot.com",
+      "icon": "https://www.peppercarrot.com/core/img/favicon.png",
+      "apiVersion": 2,
+      "file": "sources/all.peppercarrot.js",
+      "sha256": "5bdf350422323df41295168bf270e4499e35e00429a532cc669d8bb2aba66c84"
+    },
+    {
+      "id": "7113735609798927379",
+      "name": "Pepper&Carrot",
+      "lang": "ko",
+      "version": "1.2.1",
+      "baseUrl": "https://www.peppercarrot.com",
+      "icon": "https://www.peppercarrot.com/core/img/favicon.png",
+      "apiVersion": 2,
+      "file": "sources/all.peppercarrot.js",
+      "sha256": "5bdf350422323df41295168bf270e4499e35e00429a532cc669d8bb2aba66c84"
+    },
+    {
+      "id": "377155379521692942",
+      "name": "Pepper&Carrot",
+      "lang": "es",
+      "version": "1.2.1",
+      "baseUrl": "https://www.peppercarrot.com",
+      "icon": "https://www.peppercarrot.com/core/img/favicon.png",
+      "apiVersion": 2,
+      "file": "sources/all.peppercarrot.js",
+      "sha256": "5bdf350422323df41295168bf270e4499e35e00429a532cc669d8bb2aba66c84"
+    },
+    {
+      "id": "2425121988128812194",
+      "name": "Pepper&Carrot",
+      "lang": "fr",
+      "version": "1.2.1",
+      "baseUrl": "https://www.peppercarrot.com",
+      "icon": "https://www.peppercarrot.com/core/img/favicon.png",
+      "apiVersion": 2,
+      "file": "sources/all.peppercarrot.js",
+      "sha256": "5bdf350422323df41295168bf270e4499e35e00429a532cc669d8bb2aba66c84"
+    },
+    {
+      "id": "699545521251015363",
+      "name": "Pepper&Carrot",
+      "lang": "de",
+      "version": "1.2.1",
+      "baseUrl": "https://www.peppercarrot.com",
+      "icon": "https://www.peppercarrot.com/core/img/favicon.png",
+      "apiVersion": 2,
+      "file": "sources/all.peppercarrot.js",
+      "sha256": "5bdf350422323df41295168bf270e4499e35e00429a532cc669d8bb2aba66c84"
+    },
+    {
+      "id": "5426603323503143528",
+      "name": "Pepper&Carrot",
+      "lang": "id",
+      "version": "1.2.1",
+      "baseUrl": "https://www.peppercarrot.com",
+      "icon": "https://www.peppercarrot.com/core/img/favicon.png",
+      "apiVersion": 2,
+      "file": "sources/all.peppercarrot.js",
+      "sha256": "5bdf350422323df41295168bf270e4499e35e00429a532cc669d8bb2aba66c84"
+    },
+    {
+      "id": "260846947757439928",
+      "name": "Pepper&Carrot",
+      "lang": "pt-BR",
+      "version": "1.2.1",
+      "baseUrl": "https://www.peppercarrot.com",
+      "icon": "https://www.peppercarrot.com/core/img/favicon.png",
+      "apiVersion": 2,
+      "file": "sources/all.peppercarrot.js",
+      "sha256": "5bdf350422323df41295168bf270e4499e35e00429a532cc669d8bb2aba66c84"
+    },
+    {
+      "id": "8782613666392461545",
+      "name": "Pepper&Carrot",
+      "lang": "vi",
+      "version": "1.2.1",
+      "baseUrl": "https://www.peppercarrot.com",
+      "icon": "https://www.peppercarrot.com/core/img/favicon.png",
+      "apiVersion": 2,
+      "file": "sources/all.peppercarrot.js",
+      "sha256": "5bdf350422323df41295168bf270e4499e35e00429a532cc669d8bb2aba66c84"
+    },
+    {
+      "id": "1797554907736656784",
+      "name": "Pepper&Carrot",
+      "lang": "it",
+      "version": "1.2.1",
+      "baseUrl": "https://www.peppercarrot.com",
+      "icon": "https://www.peppercarrot.com/core/img/favicon.png",
+      "apiVersion": 2,
+      "file": "sources/all.peppercarrot.js",
+      "sha256": "5bdf350422323df41295168bf270e4499e35e00429a532cc669d8bb2aba66c84"
+    },
+    {
+      "id": "2401372991067169719",
+      "name": "Pepper&Carrot",
+      "lang": "ru",
+      "version": "1.2.1",
+      "baseUrl": "https://www.peppercarrot.com",
+      "icon": "https://www.peppercarrot.com/core/img/favicon.png",
+      "apiVersion": 2,
+      "file": "sources/all.peppercarrot.js",
+      "sha256": "5bdf350422323df41295168bf270e4499e35e00429a532cc669d8bb2aba66c84"
+    },
+    {
+      "id": "6998882641562544524",
+      "name": "Public Domain Comics",
+      "lang": "en",
+      "version": "1.2.0",
+      "baseUrl": "https://archive.org",
+      "apiVersion": 2,
+      "file": "sources/en.publicdomaincomics.js",
+      "sha256": "3b70c92be191045db0bc587e75620f857b7d038c1888dafc1bfb338b0786361d"
+    },
+    {
+      "id": "9122203163319944007",
+      "name": "Public Domain Manga",
+      "lang": "ja",
+      "version": "1.0.0",
+      "baseUrl": "https://dl.ndl.go.jp",
+      "apiVersion": 2,
+      "file": "sources/ja.publicdomainmanga.js",
+      "sha256": "d6308c806ce009cb76fa08539ea354334d7cfd16965a3b20fcdd5a8256592430"
+    }
+  ]
+}
