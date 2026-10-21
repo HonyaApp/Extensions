@@ -134,6 +134,18 @@
       "sha256": "5bdf350422323df41295168bf270e4499e35e00429a532cc669d8bb2aba66c84"
     },
     {
+      "id": "4495982035071456780",
+      "name": "Age Gate Test",
+      "lang": "en",
+      "version": "1.0.0",
+      "baseUrl": "https://github.com/HonyaApp/Extensions",
+      "nsfw": true,
+      "icon": "https://raw.githubusercontent.com/HonyaApp/Extensions/app-review/sources/en.agegatetest/icon.png",
+      "apiVersion": 2,
+      "file": "sources/en.agegatetest.js",
+      "sha256": "908e06bc1a9ed0b075ba05f4013c49330ab2a9353b174fcff0b944ad834bc189"
+    },
+    {
       "id": "6998882641562544524",
       "name": "Public Domain Comics",
       "lang": "en",
