@@ -61,8 +61,8 @@ Sources run in JavaScriptCore, not a browser or Node. There's no `fetch`, DOM, `
 | `Honya.request({ url, method, headers, body })` | Goes through the app's HTTP client, so it gets the app's User-Agent and cookies, your `rateLimits` and Cloudflare handling. Every status resolves. |
 | `Honya.parseHTML(html, baseUrl?)` | Native HTML parsing with Jsoup's API: `select`, `selectFirst`, `text`, `attr("abs:href")`, `parent`, `children`. |
 | `Honya.prefs.get/set` | The source's own settings. A Mihon backup restores its source's settings here. |
-| `Honya.localStorage(url, key)` | What the site keeps in the web view's `localStorage` (Mihon's `getLocalStorage`), for tokens sites hand out there. |
-| `Honya.loadInWebView(url, { waitForLocalStorage })` | Opens a page in a hidden web view so its scripts can issue a token; resolves with that `localStorage` value. |
+| `Honya.localStorage(url, key)` | What the site keeps in the web view's `localStorage` (Mihon's `getLocalStorage`), for tokens sites hand out there. Only on your `baseUrl`'s site and its subdomains. |
+| `Honya.loadInWebView(url, { waitForLocalStorage })` | Opens a page in a hidden web view so its scripts can issue a token; resolves with that `localStorage` value. Only on your `baseUrl`'s site and its subdomains. |
 | `Honya.sleep(ms)` | Waits; there's no `setTimeout`. |
 | `console.log/warn/error` | The app's log (Console.app, category "Extension <name>"). |
 

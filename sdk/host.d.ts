@@ -17,12 +17,16 @@ declare global {
     /**
      * What the site keeps in the app's web view `localStorage` under `key` (Mihon's
      * `getLocalStorage`), or null. Some sites hand out tokens there once visited in the web view.
+     * Only for the source's own site: `info.baseUrl`'s host (less `www.`) and its subdomains.
+     * Any other URL rejects.
      */
     localStorage(url: string, key: string): Promise<string | null>
     /**
      * Opens `url` in a hidden web view (sharing the visible one's cookies and storage), for sites
      * whose scripts have to run to issue a token. With `waitForLocalStorage`, resolves with that
      * key's value as soon as the page sets it; otherwise after `timeoutMs` (default 15 s, max 60 s).
+     * Only for the source's own site, as with `localStorage`. The value is read only while the
+     * page is still on that site.
      */
     loadInWebView(url: string, options?: { waitForLocalStorage?: string; timeoutMs?: number }): Promise<string | null>
     /** Waits `milliseconds` (at most a minute); scripts have no setTimeout. */

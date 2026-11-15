@@ -142,7 +142,7 @@ export type Filter =
   | { type: "sort"; id: string; name: string; options: FilterOption[]; selected?: number; ascending: boolean; listings?: Listings }
 
 export interface HTTPRequest {
-  /** Absolute, or relative to `baseUrl`. */
+  /** Absolute, or relative to `baseUrl`. http and https only. */
   url: string
   method?: string
   headers?: Record<string, string>
